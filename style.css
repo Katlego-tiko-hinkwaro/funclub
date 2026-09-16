@@ -962,6 +962,39 @@ button, input, textarea {
   .hero-copy h1 {
     font-size: clamp(2.4rem, 12vw, 4rem);
   }
+
+  .section-container {
+    padding: 0 6%;
+  }
+
+  .header-contact-nodes {
+    gap: 5px;
+    margin-left: auto;
+    margin-right: 6px;
+  }
+
+  .contact-icon-link {
+    width: 34px;
+    height: 34px;
+  }
+
+  .hero-visual {
+    min-height: 330px;
+  }
+
+  .photo-grid {
+    height: 330px;
+    transform: rotateX(8deg) rotateY(-8deg);
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .cta-button {
+    text-align: center;
+  }
 }
 
 .contact-icon-link {
