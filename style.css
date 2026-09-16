@@ -961,6 +961,14 @@ button, input, textarea {
 
   .hero-copy h1 {
     font-size: clamp(2.4rem, 12vw, 4rem);
+    line-height: 1.04;
+  }
+
+  .hero-text {
+    max-width: 34rem;
+    margin-top: 26px;
+    font-size: 1rem;
+    line-height: 1.8;
   }
 
   .section-container {
@@ -990,10 +998,67 @@ button, input, textarea {
   .hero-actions {
     align-items: stretch;
     flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
   }
 
   .cta-button {
+    min-height: 50px;
     text-align: center;
+  }
+
+  .service-list {
+    gap: 16px;
+  }
+
+  .service-card {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .service-thumb {
+    height: 170px;
+  }
+
+  .service-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .service-card p,
+  .spotlight-copy p {
+    line-height: 1.8;
+  }
+
+  .spotlight-copy {
+    padding: 26px 22px 30px;
+  }
+
+  .carousel-container {
+    gap: 10px;
+  }
+
+  .carousel-btn {
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .featured-item {
+    min-width: min(78vw, 280px);
+    padding: 26px 22px;
+  }
+
+  form#mainContactForm {
+    gap: 16px;
+  }
+
+  form#mainContactForm textarea,
+  form#mainContactForm button {
+    min-height: 52px;
+  }
+
+  form#mainContactForm textarea {
+    min-height: 180px;
   }
 }
 
