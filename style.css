@@ -945,10 +945,11 @@ button, input, textarea {
   .navbar {
     padding: 18px 6%;
     gap: 12px;
+    flex-wrap: wrap;
   }
 
   .hero-section {
-    padding-top: 90px;
+    padding-top: 148px;
   }
 
   .service-card {
@@ -962,13 +963,13 @@ button, input, textarea {
 
   .hero-copy h1 {
     max-width: 100%;
-    font-size: clamp(2.15rem, 11vw, 3.5rem);
+    font-size: clamp(1.65rem, 8.2vw, 2.8rem);
     line-height: 1.04;
   }
 
   .hero-line {
     grid-template-columns: 0.82ch minmax(0, 1fr);
-    white-space: normal;
+    white-space: nowrap;
   }
 
   .hero-text {
@@ -992,7 +993,11 @@ button, input, textarea {
   }
 
   .header-contact-nodes {
-    display: none;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+    margin: 0;
   }
 
   .logo-container {
@@ -1012,6 +1017,17 @@ button, input, textarea {
   .nav-toggle {
     flex: 0 0 42px;
     margin-left: auto;
+  }
+
+  .contact-icon-link {
+    width: 34px;
+    height: 34px;
+  }
+
+  .contact-icon-link img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
   }
 
   .hero-visual {
